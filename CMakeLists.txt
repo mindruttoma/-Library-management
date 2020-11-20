@@ -8,4 +8,6 @@ add_executable( bunnational
                ${PROJECT_SRC_DIR}/Book.h
                ${PROJECT_SRC_DIR}/Book.cpp
                ${PROJECT_SRC_DIR}/Library.h
-               ${PROJECT_SRC_DIR}/Library.cpp)
+               ${PROJECT_SRC_DIR}/Library.cpp
+               ${PROJECT_SRC_DIR}/ScienceBook.h
+               ${PROJECT_SRC_DIR}/ScienceBook.cpp )

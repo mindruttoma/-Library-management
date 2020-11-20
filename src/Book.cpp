@@ -10,7 +10,7 @@ Book::Book(const Book& b){
 }
 //assigment operator
 Book Book::operator=(Book b) 
-{
+{   if(this==&b) return *this; //item 11 self assigment
     title=b.getTitle();
     author=b.getAuthor();
     numberOfSameBooks=b.getNumberOfSameBooks();

@@ -1,5 +1,12 @@
 #ifndef SCIENCE_BOOK
-#def SCIENCE_BOOK
+#define SCIENCE_BOOK
+
+
+#include <string>
+#include <iostream>
+#include <vector>
+#include <cstring>
+using namespace std;
 
 class ScienceBook : public ScienceBook   // derived class
 {
@@ -12,4 +19,5 @@ class ScienceBook : public ScienceBook   // derived class
         string domain;
     
 
-}
+};
+#endif
