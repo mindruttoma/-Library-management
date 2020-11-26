@@ -8,7 +8,7 @@
 #include <cstring>
 using namespace std;
 
-class ScienceBook : public ScienceBook   // derived class
+class ScienceBook : public Book   // derived class
 {
     public:
         string getDomain();
